@@ -79,17 +79,17 @@
             </tbody>
         </table>
 
-            <form action="XLTinhTong" method="GET">
-                 <button>Tổng Tiền sản phẩm</button>
+        <form action="XLTinhTong" method="GET">
+            <button>Tổng Tiền sản phẩm</button>
             <%
-                if(sum != 0) {
+                if (sum != 0) {
             %>
             <h2><%= sum%></h2>
             <%
                 }
             %>
 
-            </form>
+        </form>
 
     </body>
 </html>
